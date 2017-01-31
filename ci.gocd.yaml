@@ -5,7 +5,7 @@ environments:
     pipelines:
       - yaml-example
 pipelines:
-  yamlpipe1:
+  ayoyopipe1:
     group: simple
     materials:
       mygit:  # this is the name of material
@@ -18,7 +18,7 @@ pipelines:
               tasks:
                - exec: # indicates type of task
                    command: make
-  "yaml-example": # definition of yaml-example pipeline
+  "yaml-ayoyo": # definition of yaml-example pipeline
     group: yaml-example
     label_template: "${mygit[:8]}"
     locking: off
